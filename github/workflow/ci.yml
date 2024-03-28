@@ -1,4 +1,4 @@
-name: MessageSender.py
+name: main.py
 
 on:
   schedule:
