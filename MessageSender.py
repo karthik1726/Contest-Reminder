@@ -19,11 +19,10 @@ def execute_python_file(file_path):
       print(f"Error: The file '{file_path}' does not exist.")
 
 
-file_path = 'CodeForces.py'
-execute_python_file(file_path)
-
 account_sid = 'ACafd4d15e6c064ba01364c1735bf7865f'
 auth_token = '7209b3a932621ad118e908802549feef'
 client = Client(account_sid, auth_token)
+file_path = 'CodeForces.py'
+execute_python_file(file_path)
 
 print(message.sid)
