@@ -23,7 +23,7 @@ client = Client(account_sid, auth_token)
 message = client.messages.create(
   from_='whatsapp:+14155238886',
   body= execute_CodeForces_Info(file_path),
-  to='whatsapp:+917075832552'
+  to='whatsapp:+918790888152'
 )
 
 print(message.sid)
