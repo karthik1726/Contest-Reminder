@@ -14,14 +14,16 @@ def get_upcoming_contests():
         if "result" in contest_list:
             # Filter contests to include only upcoming contests
             upcoming_contests = [contest for contest in contest_list["result"] if contest["phase"] == "BEFORE" and "Codeforces Round" in contest["name"] and "Div" in contest["name"]]
+            #div2_rounds = [contest for contest in contest_list["result"] if "Codeforces Round" in contest["name"] and "Div" in contest["name"]]
             return upcoming_contests
         else:
             return None
     else:
         return None
-
 # Get upcoming contests
 upcoming_contests = get_upcoming_contests()
+
+
 
 if upcoming_contests:
     print("Upcoming Contests:")
