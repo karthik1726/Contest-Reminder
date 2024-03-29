@@ -15,7 +15,7 @@ def execute_CodeForces_Info(file_path):
     except FileNotFoundError:
         print(f"Error: The file'{file_path}' does not exist.")
 
-file_path = "C:\\Users\\karth\\OneDrive\\Desktop\\Contest Reminder\\ContestInfo\\codeforces.py"
+file_path = "CodeForces.py"
 account_sid = 'ACafd4d15e6c064ba01364c1735bf7865f'
 auth_token = '7209b3a932621ad118e908802549feef'
 client = Client(account_sid, auth_token)
