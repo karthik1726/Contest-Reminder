@@ -1,0 +1,127 @@
+PS C:\Users\student\Documents\67F9> npm install -g @angular/cli
+
+changed 232 packages in 30s
+
+44 packages are looking for funding
+  run `npm fund` for details
+PS C:\Users\student\Documents\67F9> npm config set fund false
+PS C:\Users\student\Documents\67F9> npm install -g @angular/cli
+
+changed 232 packages in 24s
+PS C:\Users\student\Documents\67F9> ng new navbar
+ng : File C:\Users\student\AppData\Roaming\npm\ng.ps1 cannot be loaded because running scripts is disabled on this system. For 
+more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:1
++ ng new navbar
++ ~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+PS C:\Users\student\Documents\67F9> Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+PS C:\Users\student\Documents\67F9> ng new navbar
+? Would you like to share pseudonymous usage data about this project with the Angular Team
+at Google under Google's Privacy Policy at https://policies.google.com/privacy. For more
+details and how to change this setting, see https://angular.io/analytics. Yes
+
+Thank you for sharing pseudonymous usage data. Should you change your mind, the following
+command will disable this feature entirely:
+
+    ng analytics disable --global
+
+Global setting: enabled
+Local setting: No local workspace configuration file.
+Effective status: enabled
+? Which stylesheet format would you like to use? CSS             [ https://developer.mozilla.org/docs/Web/CSS
+  ]
+? Do you want to enable Server-Side Rendering (SSR) and Static Site Generation (SSG/Prerendering)? Yes
+CREATE navbar/angular.json (2838 bytes)
+CREATE navbar/package.json (1263 bytes)
+CREATE navbar/README.md (1087 bytes)
+CREATE navbar/tsconfig.json (889 bytes)
+CREATE navbar/.editorconfig (290 bytes)
+CREATE navbar/.gitignore (590 bytes)
+CREATE navbar/tsconfig.app.json (342 bytes)
+CREATE navbar/tsconfig.spec.json (287 bytes)
+CREATE navbar/server.ts (1763 bytes)
+CREATE navbar/.vscode/extensions.json (134 bytes)
+CREATE navbar/.vscode/launch.json (490 bytes)
+CREATE navbar/.vscode/tasks.json (980 bytes)
+CREATE navbar/src/main.ts (256 bytes)
+CREATE navbar/src/favicon.ico (15086 bytes)
+CREATE navbar/src/index.html (305 bytes)
+CREATE navbar/src/styles.css (81 bytes)
+CREATE navbar/src/main.server.ts (271 bytes)
+CREATE navbar/src/app/app.component.html (20239 bytes)
+CREATE navbar/src/app/app.component.spec.ts (945 bytes)
+CREATE navbar/src/app/app.component.ts (315 bytes)
+CREATE navbar/src/app/app.component.css (0 bytes)
+CREATE navbar/src/app/app.config.ts (330 bytes)
+CREATE navbar/src/app/app.routes.ts (80 bytes)
+CREATE navbar/src/app/app.config.server.ts (361 bytes)
+CREATE navbar/src/assets/.gitkeep (0 bytes)
+⠸ Installing packages (npm)...
+PS C:\Users\student\Documents\67F9> ng new navbar
+? Which stylesheet format would you like to use? CSS             [ https://developer.mozilla.org/docs/Web/CSS
+  ]
+? Do you want to enable Server-Side Rendering (SSR) and Static Site Generation (SSG/Prerendering)? Yes
+⠹ Installing packages (npm)...
+PS C:\Users\student\Documents\67F9> ng new navbar
+? Which stylesheet format would you like to use? CSS             [ https://developer.mozilla.org/docs/Web/CSS
+ ]
+? Do you want to enable Server-Side Rendering (SSR) and Static Site Generation (SSG/Prerendering)? Yes
+CREATE navbar/angular.json (2838 bytes)
+CREATE navbar/package.json (1263 bytes)
+CREATE navbar/README.md (1087 bytes)
+CREATE navbar/tsconfig.json (889 bytes)
+CREATE navbar/.editorconfig (290 bytes)
+CREATE navbar/.gitignore (590 bytes)
+CREATE navbar/tsconfig.app.json (342 bytes)
+CREATE navbar/tsconfig.spec.json (287 bytes)
+CREATE navbar/server.ts (1763 bytes)
+CREATE navbar/.vscode/extensions.json (134 bytes)
+CREATE navbar/.vscode/launch.json (490 bytes)
+CREATE navbar/.vscode/tasks.json (980 bytes)
+CREATE navbar/src/main.ts (256 bytes)
+CREATE navbar/src/favicon.ico (15086 bytes)
+CREATE navbar/src/index.html (305 bytes)
+CREATE navbar/src/styles.css (81 bytes)
+CREATE navbar/src/main.server.ts (271 bytes)
+CREATE navbar/src/app/app.component.html (20239 bytes)
+CREATE navbar/src/app/app.component.spec.ts (945 bytes)
+CREATE navbar/src/app/app.component.ts (315 bytes)
+CREATE navbar/src/app/app.component.css (0 bytes)
+CREATE navbar/src/app/app.config.ts (330 bytes)
+CREATE navbar/src/app/app.routes.ts (80 bytes)
+CREATE navbar/src/app/app.config.server.ts (361 bytes)
+CREATE navbar/src/assets/.gitkeep (0 bytes)
+✔ Packages installed successfully.
+'git' is not recognized as an internal or external command,
+operable program or batch file.
+PS C:\Users\student\Documents\67F9> cd navbar
+PS C:\Users\student\Documents\67F9\navbar> ng server -0
+Error: Unknown command. Did you mean serve?
+PS C:\Users\student\Documents\67F9\navbar> ng serve -0 
+Error: Invalid values:
+  Argument: project, Given: "-0", Choices: "navbar"
+PS C:\Users\student\Documents\67F9\navbar> ng serve -o
+? Would you like to share pseudonymous usage data about this project with the Angular Team
+at Google under Google's Privacy Policy at https://policies.google.com/privacy. For more
+details and how to change this setting, see https://angular.io/analytics. Yes
+
+Thank you for sharing pseudonymous usage data. Should you change your mind, the following
+command will disable this feature entirely:
+
+Application bundle generation complete. [5.774 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+  ➜  press h + enter to show help
+
+
+
+
+
+
+
+
+
+
