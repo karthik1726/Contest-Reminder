@@ -14,5 +14,4 @@ jobs:
 
       - name: Run project
         run: MessageSender.py
-          # Add your command here to run the project
-          python your_script.py  # Example command to run a Python script
+          
