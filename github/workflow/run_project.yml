@@ -1,0 +1,16 @@
+name: Run Project Every Minute
+
+on:
+  schedule:
+    - cron: '*/1 * * * *'  # Schedule to run every minute
+
+jobs:
+  run-project:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Run project
+        run: MessageSender.py
