@@ -27,4 +27,4 @@ jobs:
         pip install twilio
     - name: Run Tests
       run: 
-        python MessageSender.py test
+        python MessageSender.py
