@@ -1,4 +1,4 @@
-name: Python application
+name: Contest Script Runner
 
 on:
   schedule:
