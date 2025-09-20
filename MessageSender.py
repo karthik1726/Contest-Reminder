@@ -16,14 +16,14 @@ def execute_CodeForces_Info(file_path):
         print(f"Error: The file'{file_path}' does not exist.")
 
 file_path = "CodeForces.py"
-account_sid = 'ACafd4d15e6c064ba01364c1735bf7865f'
-auth_token = '7209b3a932621ad118e908802549feef'
+account_sid = 'YOUR ACCOUNT ID'
+auth_token = 'YOUR AUTENTICATION TOCKEN'
 client = Client(account_sid, auth_token)
 
 message = client.messages.create(
-  from_='whatsapp:+14155238886',
+  from_='whatsapp: TWILIO SANDBOX NUMBER',
   body= execute_CodeForces_Info(file_path),
-  to='whatsapp:+918790888152'
+  to='whatsapp: YOUR MOBILE NUMBER'
 )
 
 print(message.sid)
